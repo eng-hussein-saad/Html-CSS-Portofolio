@@ -213,6 +213,7 @@ section {
 
 .project-image img {
   width: 100%;
+  min-height: 220px;
 }
 
 .project-card:hover .project-image {
@@ -279,6 +280,9 @@ section {
 .footer a {
   font-size: 1.3em;
   padding: 0 1.3em;
+}
+.leetcode-icon-footer {
+  height: 18px;
 }
 
 @media (max-width: 1023px) {
